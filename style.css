@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700i');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.wrapper{
+    width:100%;
+    max-width:960px;
+    margin:0 auto;
+}
+.about-representation:after,.about-services:after,.our-services:after,.service:after,.plan:after,.plans:after,.testimonial .main:after,.testimonials:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+header{
+    background:#63676b;
+    
+    padding:40px 0;
+}
+#logo{
+    font-family: 'Hind', sans-serif;
+    font-size:20px;
+    font-weight:700;
+    color:white;
+}
+.header-container{
+    margin:50px 0;
+}
+.header-container h2{
+    color:white;
+     font-family: 'Hind', sans-serif;
+     font-weight:700;
+     font-size:50px;
+     text-align:center;
+}
+.header-container h2 span{
+    font-family: 'Playfair Display', serif;
+    font-weight:700;
+    font-style:italic;
+}
+.header-container p{
+    text-align:center;
+    margin:40px 0;
+    color:white;
+    line-height:1.6em;
+    font-family: 'Hind', sans-serif;
+
+}
+.header-form{
+    margin:20px 0;
+    text-align:center;
+}
+.header-form input{
+    background:#929598;
+    border:none;
+    padding:10px 20px;
+    width:300px;
+    margin-left:20px;
+}
+.header-container input::placeholder{
+    color:white;
+    font-family: 'Hind', sans-serif;
+}
+.header-form button,.call button{
+    display:block;
+    margin:40px auto;
+    font-family: 'Hind', sans-serif;
+    font-weight:700;
+    font-size:24px;
+    color:white;
+    background:#1b8bf9;
+    border:none;
+    padding:15px 60px;
+    border-radius: 60px;
+}
+input:focus{
+        outline: none;
+    }
+/*About Section*/
+.about-us{
+    padding:40px 0;
+}
+.about-representation{
+    padding:80px 0 60px 0;
+    border-bottom:1px solid #f4f4f5;
+    font-family:'Hind';
+}
+.about-description{
+    float:left;
+    width:50%;
+}
+.about-description h2,.services-description h2{
+    font-size:12px;
+    color:#8a949f;
+    margin-bottom:20px;
+}
+.about-slogan,.services-slogan{
+    font-weight:700;
+    font-size:40px;
+    line-height:1.2em
+}
+.about-slogan span,.services-slogan span {
+    font-family: 'Playfair Display', serif;
+    font-weight:700;
+    font-style:italic;
+}
+
+.about-details{
+    float:right;
+    width:50%;
+    font-family:'Muli';
+    color:#8a949f;
+    padding-top:40px;
+    line-height:1.5em;
+}
+/*About Services*/
+.about-services{
+    padding: 80px 0 40px 0;
+}
+.about-service{
+    width:32%;
+    float:left;
+    text-align:center;
+}
+.about-service:nth-child(2){
+    margin:0 2%;
+}
+.about-service ion-icon{
+    font-size:70px;
+    color:#8a949f;
+}
+.about-service h3{
+    font-family:'Hind';
+    font-size:20px;
+    margin:20px 0;
+}
+.about-service p{
+    font-family:'Muli';
+    color:#8a949f;
+}
+/*Services section*/
+.our-services img{
+    float:left;
+    width:50%;
+}
+.main-services{
+    float:right;
+    width:49%;
+    margin-left:1%;
+    margin-top:110px;
+}
+.services-representation h2{
+    margin-bottom:40px;
+}
+.services-representation .services-slogan{
+    margin-bottom:20px;
+}
+.services-paragraph{
+    font-family:'Muli';
+    color:#8a949f;
+    padding-top:20px;
+    line-height:2em;
+    margin-bottom:60px;
+}
+.service{
+    margin-bottom:30px;
+}
+.service .image{
+    float:left;
+    width:10%;
+    margin-right:5%;
+    margin-top:5px;
+}
+.service ion-icon{
+    font-size:50px;
+    color:#8a949f;
+}
+.service-details{
+    width:85%;
+    float:right;;
+}
+.service-details h3{
+    font-family: 'Hind', sans-serif;
+    font-size:20px;
+    margin-bottom:20px;
+    font-weight:700;
+}
+.service-details p{
+    width:90%;
+    font-family:'Muli';
+    color:#8a949f;
+    line-height:2em;
+}
+/*our pricing*/
+.our-price{
+    background:#f6f9fd;
+    padding-bottom:100px;
+}
+.plans{
+    margin-top:80px;
+}
+.plan{
+    width:32%;
+    float:left;
+    text-align:center;
+    padding-top:40px;
+    padding-bottom:10px;
+    border:1px solid #d0dbe7;;
+}
+.plan:nth-child(2){
+    margin:0 2%;
+    position:relative;
+    background:white;
+}
+.plan:nth-child(2) img{
+    position:absolute;
+    top:0;
+    right:7%;
+}
+.plan-name {
+    font-family:'Muli';
+    font-size:12px;
+    color:#1b8bf9;
+    margin-bottom:20px;
+}
+.price{
+    font-family:'Hind';
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:40px;
+}
+.price span{
+    display:block;
+    font-size:12px;
+    font-weight:normal;
+    color:#8a949f;
+    margin-top:-12px
+}
+.plan .details{
+    line-height:2em;
+    font-family:'Muli';
+    font-size:15px;
+    color:#8a949f;
+}
+.plan button {
+    display: block;
+    margin: 60px auto 20px auto;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    background: #1b8bf9;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+/*Testimonials*/
+.our-testimonial{
+    background:white;
+    padding-bottom:60px;
+}
+.testimonials{
+    margin:60px 0;
+}
+.testimonial{
+    width:30%;
+    float:left;
+}
+.testimonial:nth-child(2){
+    margin:0 5%;
+}
+.testimonial .main .testimonial-image{
+  float:left;
+  width:20%;
+  margin-right:5%;
+  
+}
+.testimonial .main .testimonial-image:after{
+  content:'';
+  display:block;
+  width:65px;
+  height:65px;
+  background:#bbbbbb;
+  border-radius: 50%;
+}
+.testimonial .main .testimonial-details{
+  float:right;  
+  width:70%;
+  padding-top:10px;
+  margin-bottom:30px;
+}
+
+.testimonial .main .testimonial-details .name{
+  font-family:'Hind';
+  font-weight:bold;
+}
+.testimonial .main .testimonial-details .corporation{
+  font-family:'Hind';
+  font-size:12px;
+  color:#8a949f;;
+}
+.testimonial > p{
+  color:#8a949f;
+  font-family:'Muli';
+  
+}
+.call{
+  background:#63676b;
+  padding:110px 0;
+  text-align:center;
+}
+.call h2{
+  font-family:'Hind';
+  font-size:50px;
+  color:white;
+  font-weight:bold;
+}
+.call p{
+  font-family:"Muli";
+  font-size:16px;
+  color:white;
+  line-height:2em;
+}
+footer{
+  text-align:center;
+  padding:15px 0;
+  font-family:'Hind';
+  font-size:14px;
+}
+footer span{
+  color: #1b8bf9;
+}
